@@ -20,7 +20,6 @@ public class ApiController {
         this.validatorService = validatorService;
     }
 
-
     @GetMapping("/validate-postal-code")
     public ResponseEntity<Map<String, Object>> validatePostalCode(
             @RequestParam String countryName,
